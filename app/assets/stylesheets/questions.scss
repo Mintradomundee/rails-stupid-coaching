@@ -1,0 +1,43 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-size: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: light;
+}
+
+p {
+  font-weight: lighter;
+}
+
+#coach-answer {
+  font-weight: bold;
+}
+
+.answer:hover {
+  background-color: #FFFFE1;
+}
+
+.question:hover {
+  background-color: #FFFFE1;
+}
+
+.button {
+  background-color: #3379B7;
+  color: white;
+  border: 0 solid #3379B7;
+  padding: 5px 12px;
+  &:hover{
+    opacity: 0.5;
+  }
+}
